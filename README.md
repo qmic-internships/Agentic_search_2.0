@@ -142,26 +142,6 @@ Edit `config.json` to customize:
 - Processing settings (batch sizes, file paths)
 - Output directories and formats
 
-## 📈 Sample Results
-
-### Before Improvements
-```
-Average Score: 2.8/10
-Main Issues:
-- Poor location accuracy (40% of queries)
-- Missing context handling (35% of queries)
-- Inconsistent naming (25% of queries)
-```
-
-### After Improvements
-```
-Average Score: 7.2/10
-Improvements:
-- Location accuracy: +85%
-- Context handling: +60%
-- Result relevance: +45%
-```
-
 ## 🛠️ Advanced Usage
 
 ### Custom Evaluation Parameters
