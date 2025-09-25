@@ -1,7 +1,7 @@
 {
     "query": "Al Mirqab m",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Mirqab Mall, and instead contains noisy results like Museum of Islamic Art and City Center Doha Mall, which are not directly related to the query 'Al Mirqab m'. The actual output shows poor precision and ranking, with the first relevant result, Al Mirqab 2 Residential Compounds, appearing at a low rank.",
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Mirqab Mall and Al Mirqab Mosque, instead providing results like Museum of Islamic Art and The Gate Mall which are not directly related to the query 'Al Mirqab m'. While it does contain some relevant results like Al Mirqab 2 Residential Compounds and Al Mirqab Residence 1, their ranking is not optimal and the list is populated with largely irrelevant suggestions, leading to a poor overall judgment of its usefulness and trustworthiness for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -80,7 +80,7 @@
 {
     "query": "Al Mirqab mall",
     "holistic_ai_score": 0.7,
-    "holistic_ai_reasoning": "The Solr list contains the most important POI, Al Mirqab Mall, although it's ranked fourth, and has some relevant results such as City Center Doha Mall, but also includes less relevant matches like The Gate Mall and Msheireb Galleria Mall, indicating room for improvement in precision and ranking.",
+    "holistic_ai_reasoning": "The Solr list contains the most important POI, Al Mirqab Mall, but it is ranked fourth, indicating a flaw in ranking, and the list includes other malls that, while relevant to the broader category of malls in Doha, do not specifically match the query's focus on 'Al Mirqab mall' as closely as the expected output, which suggests more targeted and relevant results like Carrefour and FUNDERDOME within Al Mirqab Mall",
     "quantitative_metrics": {
         "precision_ratio": 0.4,
         "mean_reciprocal_rank": 0.1,
@@ -158,8 +158,8 @@
 }
 {
     "query": "Al Noor",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Actual Output lacks key results from the Expected Output, such as Al Noor Petrol Station, which is highly relevant to the query. Furthermore, while some results like Al Noor Language School are relevant, their ranking and the presence of less relevant results like Dar al noor ladies tailor reduce the overall quality and usefulness of the list.",
+    "holistic_ai_score": 0.4,
+    "holistic_ai_reasoning": "The Solr list lacks the most important POI(s) from the Google list, and its results, although somewhat relevant to the query 'Al Noor', contain noise and are not as precise as the expected output, with no strong match ranked highly",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -238,7 +238,7 @@
 {
     "query": "Al Noor compound 1",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google #1 result, Al Noor Compound 1, and instead provides a list of somewhat related but ultimately irrelevant results, with none of them matching the expected output, demonstrating very poor quality with some marginal relevance.",
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant result, Al Noor Compound 1, which is the expected output, and instead provides a list of somewhat related but less relevant compounds, demonstrating poor key result coverage and precision",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -285,7 +285,7 @@
 {
     "query": "Al Noor compound thumama",
     "holistic_ai_score": 0.0,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google results, including Al Noor Compound 1 and 2, and instead provides noisy and irrelevant results such as Al Thumama Stadium and Tea Time Al Thumama, which are not useful for the user's query.",
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Al Noor Compound, and instead provides irrelevant results such as Al Thumama Stadium and Rawdat Umm Thumama Street, which are not helpful for the user's query",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -364,7 +364,7 @@
 {
     "query": "Al Noor p",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list lacks the most important POIs from the Google list, and its results are mostly irrelevant or nonsensical for the query, with only a partial match in 'Al Noor' and no highly relevant results like Al Noor Petrol Station in Ar-Rayyan or Sunlife Pharmacy Al Noor.",
+    "holistic_ai_reasoning": "The Solr list lacks the highly relevant #1 result from the Google list, Al Noor Petrol Station, and instead includes multiple petrol stations with similar names but different locations, and other unrelated results such as a clinic and bakeries, indicating poor key result coverage, low precision, and unhelpful ranking",
     "quantitative_metrics": {
         "precision_ratio": 0.4,
         "mean_reciprocal_rank": 0.1,
@@ -443,7 +443,7 @@
 {
     "query": "Al Noor petr",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant results from the Google list, particularly Al Noor Petrol Station in Qatar and several locations in Pakistan, instead providing two results that, although related to the query, do not match the expected output's diversity and relevance.",
+    "holistic_ai_reasoning": "The Solr list misses the most relevant results from the Google list, particularly Al Noor Petrol Station in Qatar and various locations in Pakistan, instead providing less relevant results in Abu Sidra and Bu Sidra, indicating poor key result coverage and precision",
     "quantitative_metrics": {
         "precision_ratio": 1.0,
         "mean_reciprocal_rank": 0.6,
@@ -510,7 +510,7 @@
 {
     "query": "Al Noor petrol",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant results from Pakistan that are present in the Google list, and instead contains results from Abu Sidra and Bu Sidra, which may not be relevant to the user's query, indicating very poor quality with some relevance.",
+    "holistic_ai_reasoning": "The Solr list lacks the most relevant results from the Google list, particularly the #1 result, Al Noor Petrol Station in Ar-Rayyan, Qatar, which is highly relevant to the query. The results provided, such as Al Noor Petrol Station in Abu Sidra and Bu Sidra, do not align well with the expected output, indicating significant flaws in key result coverage, precision, and overall ranking.",
     "quantitative_metrics": {
         "precision_ratio": 1.0,
         "mean_reciprocal_rank": 0.6,
@@ -577,7 +577,7 @@
 {
     "query": "Al Osra",
     "holistic_ai_score": 0.6,
-    "holistic_ai_reasoning": "The Solr list contains some relevant results, including Al Osra Mart trading and Al Osra Restaurant, which overlap with the Expected Output, but it lacks key results like Al Osra Restaurant on Al Fayhaa Street and Al Osra Trading & Contracting, and includes a poorly detailed Alosra Family-friendly, indicating significant flaws in precision and ranking.",
+    "holistic_ai_reasoning": "The Solr list contains some relevant results, such as Al Osra Restaurant and Al Osra Mart trading, which suggests that the query was partially understood. However, the list lacks the top result from the Google list, Al Osra Restaurant on Al Fayhaa Street, and includes Alosra Family-friendly with no location, which is noise. The ranking of relevant results is acceptable, with two relevant matches in the top three positions, but overall, the list has significant flaws and is not as comprehensive or accurate as the Expected Output.",
     "quantitative_metrics": {
         "precision_ratio": 0.6667,
         "mean_reciprocal_rank": 0.5,
@@ -648,7 +648,7 @@
 {
     "query": "Al Rumaila hospital",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to include the most relevant result, Rumailah Hospital, and instead contains unrelated hospitals, demonstrating poor key result coverage and precision, with the actual Al Rumaila hospital result being incorrectly listed as a mosque.",
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant result, Rumailah Hospital, which is the expected #1 result, and instead includes irrelevant hospitals, with the actual hospital name appearing only in a nonsensical result, Al Rumaila hospital Mosque, indicating poor key result coverage, low precision, and ineffective ranking.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -714,8 +714,8 @@
 }
 {
     "query": "Al S",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to cover the most important POI(s) from the Google list, with none of the expected results like Al Sadd or Al Shafi Street appearing in the actual output, and instead contains largely irrelevant or nonsensical results for the query 'Al S', indicating very poor quality with some marginal relevance at best.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results from the Google list, including Al Sadd, which is highly relevant to the query 'Al S'. The results provided, such as Qatar Science and Technology Park and Sidra Outpatient, are not relevant to the query, indicating poor precision and noise. The ranking is also subpar, with no strong match present in the list, making the Solr list unhelpful and untrustworthy for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -794,7 +794,7 @@
 {
     "query": "Al Sad",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to cover the most important POIs from the Google list, missing highly relevant results like Al Sadd in Doha, Qatar, and instead includes largely irrelevant or nonsensical results for the query 'Al Sad', with poor ranking and overall quality.",
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Sadd, Al Sadd Mall, and Al Sadd Sports Club, which are highly relevant to the query 'Al Sad'. The provided results are largely irrelevant or nonsensical, with only a partial match in 'Al Sad Residential Compounds', and the rankings do not prioritize the most relevant matches. This suggests significant flaws in the Solr list's ability to provide helpful and trustworthy suggestions for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -872,8 +872,8 @@
 }
 {
     "query": "Al Sadd",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list contains some relevant keywords, but the results are largely irrelevant and lack specific details, such as locations, found in the Google list, and the ranking does not prioritize meaningful matches like Al Sadd Sports Club or Al Sadd Mall.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the most important POIs from the Google list, including Al Sadd's location in Doha, Qatar, and relevant establishments like Al Sadd Mall and Al Sadd Sports Club, instead providing a list with low relevance and precision",
     "quantitative_metrics": {
         "precision_ratio": 0.8,
         "mean_reciprocal_rank": 0.24,
@@ -952,7 +952,7 @@
 {
     "query": "Al Shara",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list lacks the most important POI from the Google list, with none of the top results matching the expected output, and contains mostly irrelevant or nonsensical results for the query 'Al Shara', such as 'Sharaf DG' and 'Dr. Sharara Medical Center', indicating very poor quality with some minor relevance.",
+    "holistic_ai_reasoning": "The Solr list lacks the most relevant results from the Google list, with none of the top results matching exactly, and contains noise with results like 'Sharaf DG' and 'Dr. Sharara Medical Center' that are not directly related to 'Al Shara', indicating poor key result coverage, precision, and ranking.",
     "quantitative_metrics": {
         "precision_ratio": 0.2,
         "mean_reciprocal_rank": 0.08,
@@ -1030,8 +1030,8 @@
 }
 {
     "query": "Al Shara hot",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Qahir Al Sahara Hotel, and instead contains mostly irrelevant or nonsensical results for the query 'Al Shara hot', with no strong matches ranked highly.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Qahir Al Sahara Hotel, and instead contains mostly irrelevant or nonsensical results for the query 'Al Shara hot', with none of the results matching the expected output",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1102,7 +1102,7 @@
 {
     "query": "Al Shara hotel",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to contain the most important POI(s) from the Google list, with none of the top results matching the expected output, and the provided results are largely irrelevant or nonsensical for the query 'Al Shara hotel', lacking any direct reference to the expected hotels.",
+    "holistic_ai_reasoning": "The Solr list lacks highly relevant results from the Google list, particularly the #1 result, Qahir Al Sahara Hotel, which is completely missing. Although the Solr list contains some mentions of 'Shar' or 'Shara', such as Al Sharaafi and Parisa Sharq Hotel, these are not as directly relevant to the query as the expected output. The ranking also does not prioritize these somewhat relevant results effectively, with the most relevant ones not appearing at the top. Overall, the list has significant flaws and is not very helpful or trustworthy for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1181,7 +1181,7 @@
 {
     "query": "Al Thakeera Beach",
     "holistic_ai_score": 0.7,
-    "holistic_ai_reasoning": "The Solr list contains a strong match, AlThakira beach, which is ranked fourth, indicating some relevance to the query. However, the list lacks the most important POI from the Google list, Al Thakeera Beach, and includes some irrelevant results like Purple Island Beach and Al Sultan Beach Resort, which reduces its overall quality and trustworthiness.",
+    "holistic_ai_reasoning": "The Solr list contains a strong match, AlThakira beach, although it's ranked fourth and has a slight variation in spelling, the list also includes other somewhat relevant beach results, but lacks the exact and most relevant match, Al Thakeera Beach, and includes other less relevant options.",
     "quantitative_metrics": {
         "precision_ratio": 0.2,
         "mean_reciprocal_rank": 0.2,
@@ -1260,7 +1260,7 @@
 {
     "query": "Al Wa",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Wakrah and Al Waab, and instead contains noise like Souq Waqif and Jebn wa Zaitoun, which are not directly related to the query 'Al Wa'. The ranking is also poor, with the most relevant result, Al Wakrah Hospital, being ranked third, but even then, it's not the exact match expected.",
+    "holistic_ai_reasoning": "The Solr list misses the most relevant results, including Al Waab and Al Wakrah, which are the top results in the Google list. Although it includes some relevant keywords, the results are either incorrect, such as ranking Al Imam Mohammed Bin Abdul Wahab Mosque first, or partially relevant, such as Al Wakrah Hospital, which does not match the expected Al Wakrah. The precision and noise are also significant issues, with most results not being highly relevant to the query. Overall, the list lacks strong matches and has poor ranking, making it unhelpful and untrustworthy for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.2,
         "mean_reciprocal_rank": 0.0667,
@@ -1338,8 +1338,8 @@
 }
 {
     "query": "Al Wa hospital emergency",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the top result from the Google list, and the single result provided, Al Wakrah Hospital Womens Emergency, although related to the query, does not match the expected output which includes more directly relevant emergency rooms in Alabama, indicating a significant lack of precision and noise in the results.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant results from the Google list, particularly the hospitals in Alabama, and instead provides a result that, although related to 'Al' and 'hospital' and 'emergency', is from a different geographical context and does not match any of the expected outputs, indicating poor key result coverage, low precision, and unhelpful ranking.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1401,8 +1401,8 @@
 }
 {
     "query": "Al Waab",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Waab in Doha, Qatar, and instead provides streets with 'Waab' in their names, which, although related, lack the precision and relevance of the expected output, indicating poor key result coverage and low precision.",
+    "holistic_ai_score": 0.1,
+    "holistic_ai_reasoning": "The Solr list completely misses highly relevant results from the Google list, such as Al Waab in Doha, Qatar, and instead provides a list of street names that, while containing the query term, lack the precision and relevance of the expected output, indicating poor key result coverage and unacceptable overall quality",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1481,7 +1481,7 @@
 {
     "query": "Al Wafa",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list lacks highly relevant results from the Google list, such as Al Wafa Trading Co. and Al Wafa supermarket, and instead contains mostly tailor shops, which are less relevant to the query 'Al Wafa', indicating poor key result coverage and precision.",
+    "holistic_ai_reasoning": "The Solr list lacks key results from the Google list, notably Al Wafa Trading Co. WLL, which is highly relevant to the query. While some results like Al wafa tailor and Al Wafa Trading show some relevance, the list is dominated by tailoring services, indicating poor precision and noise. The ranking does not prioritize the strongest matches, and overall, the list is not a trustworthy set of suggestions for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.4,
         "mean_reciprocal_rank": 0.5,
@@ -1559,8 +1559,8 @@
 }
 {
     "query": "Al Wafa r",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google results, such as Al Wafa Residence, and instead contains mostly irrelevant tailoring services, demonstrating poor key result coverage and precision.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the most important POI(s) from the Google list, including Al Wafa Residence, and instead returns a list of tailors and traders with 'Al Wafa' in their name, which are irrelevant to the query, indicating poor key result coverage, low precision, and unhelpful ranking.",
     "quantitative_metrics": {
         "precision_ratio": 1.0,
         "mean_reciprocal_rank": 0.4,
@@ -1639,7 +1639,7 @@
 {
     "query": "Al Wafa ro",
     "holistic_ai_score": 0.0,
-    "holistic_ai_reasoning": "The Solr list completely misses the most important POI(s) from the Google list, with none of the actual results matching the expected output, and all results being irrelevant or nonsensical for the query 'Al Wafa ro'.",
+    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results from the Google list, including Al Wafa Roastery, and instead provides a list of unrelated businesses and locations, demonstrating a significant lack of precision and noise, with no strong matches and a generally unhelpful set of suggestions for the user's query",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1717,8 +1717,8 @@
 }
 {
     "query": "Al Wafa tl",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results from the Google list, and instead provides results that are somewhat related to the query but lack precision and are noisy, with only one result partially matching the expected output's relevance to 'Al Wafa' and none matching the expected geographic locations.",
+    "holistic_ai_score": 0.1,
+    "holistic_ai_reasoning": "The Solr list fails to cover the most important POI(s) from the Google list, with none of the top results matching the expected output. The actual output contains mostly irrelevant results, such as 'TL FLOWER BOUTIQE' and 'Chai Tlqemh', which are not related to the query 'Al Wafa tl'. The only somewhat relevant result, 'Al wafa tailor', is ranked low at #4 and is not a strong match. Overall, the Solr list is not helpful or trustworthy for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.4,
         "mean_reciprocal_rank": 0.25,
@@ -1796,8 +1796,8 @@
 }
 {
     "query": "Al Wafa to",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results from the Google list, such as Al Wafa Tower, and instead provides a result that is only partially relevant to the query, Wafa Auto Spare Parts & Electrical, which does not match the expected output and introduces noise.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Al Wafa Tower, and instead provides Wafa Auto Spare Parts & Electrical, which is not relevant to the query 'Al Wafa to'. This indicates poor key result coverage and precision.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1859,8 +1859,8 @@
 }
 {
     "query": "Al Wafa towe",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Al Wafa Tower, and instead contains mostly irrelevant results such as Control Tower Hamad Port and Doha Tower Cafeteria, with only a weak match in Al Wakra Tower, which is not the expected Al Wafa Tower.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results, including Al Wafa Tower, which is the expected #1 result, and instead provides unrelated suggestions such as Control Tower Hamad Port and Doha Tower Cafeteria, indicating poor key result coverage, low precision, and ineffective ranking",
     "quantitative_metrics": {
         "precision_ratio": 0.2,
         "mean_reciprocal_rank": 0.1,
@@ -1914,8 +1914,8 @@
 }
 {
     "query": "Al Wafa tower",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google #1 result, Al Wafa Tower, and instead contains irrelevant tailor shops and unrelated towers, demonstrating very poor quality with minimal relevance to the user's query for 'Al Wafa tower'.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google #1 result, Al Wafa Tower, and instead contains irrelevant tailor shops and unrelated towers, demonstrating poor key result coverage, low precision, and unhelpful ranking",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -1970,7 +1970,7 @@
 {
     "query": "Al Wafaa",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list lacks the most relevant POIs from the Google list, such as Al Wafa Trading Co. and Al-Wafaa kindergarten, and instead contains multiple street results with 'Al Wafaa' in the name, introducing noise and suggesting poor precision, with no strong matches ranked highly.",
+    "holistic_ai_reasoning": "The Solr list lacks relevant results, with none of the top matches from the Google list present, and instead contains multiple iterations of 'Al Wafaa Street' which, although related to the query, do not provide the variety or precision of results seen in the Expected Output, thus failing to provide a helpful set of suggestions for the user's query.",
     "quantitative_metrics": {
         "precision_ratio": 0.6,
         "mean_reciprocal_rank": 0.2,
@@ -2048,8 +2048,8 @@
 }
 {
     "query": "Al Wagga",
-    "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list lacks the most important POI(s) from the Google list, with none of the expected results appearing in the actual output, and contains largely irrelevant results such as Al Janoub Stadium and Al Haya, which do not match the query 'Al Wagga' well, indicating very poor quality with minimal relevance.",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results, including Wagga Wagga Street, and instead contains unrelated or nonsensical suggestions such as Al Janoub Stadium and Al Haya, indicating poor key result coverage, low precision, and ineffective ranking.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,
@@ -2128,7 +2128,7 @@
 {
     "query": "Al Wakr hospital emergency",
     "holistic_ai_score": 0.2,
-    "holistic_ai_reasoning": "The Solr list lacks the most relevant result from the Google list, Al Wakra Hospital Emergency Department, and instead includes Hamad Hospital Emergency, which is not directly related to the query, resulting in poor key result coverage and low precision.",
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant result from the Google list, Al Wakra Hospital Emergency Department Parking, and instead includes Hamad Hospital Emergency Female and Kids, which is not the best match for the query 'Al Wakr hospital emergency'. The list has significant flaws, with only one result, Al Wakrah Hospital Womens Emergency, being somewhat relevant to the query.",
     "quantitative_metrics": {
         "precision_ratio": 0.0,
         "mean_reciprocal_rank": 0.0,

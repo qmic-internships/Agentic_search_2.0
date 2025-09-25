@@ -153,11 +153,21 @@ Thumbs.db
 temp/
 tmp/
 
-# Data files (uncomment if you want to exclude large data files)
-# data/
-# *.jsonl
-# *.csv
-# *.json
+# Generated data files - exclude all generated content
+data/keywords/*.csv
+data/processed/*.jsonl
+data/processed/*.json
+data/results/*.csv
+data/results/*.jsonl
+data/results/*.json
+data/results/*.txt
+
+# Raw API results (can be regenerated)
+raw/*.jsonl
+
+# Keep source data files
+# data/Analytics.json (keep this - it's source data)
+# data/representative_keywords_with_location.csv (keep this - it's input data)
 
 # API keys and secrets
 .env.local
