@@ -1,0 +1,12 @@
+numpy
+pandas
+plotly
+requests
+streamlit
+tqdm
+python-dotenv
+deepeval
+litellm
+uv
+dotenv
+streamlit-extras

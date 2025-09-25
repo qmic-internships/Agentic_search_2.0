@@ -1,0 +1,2174 @@
+{
+    "query": "Al Mirqab m",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Mirqab Mall, and instead contains noisy results like Museum of Islamic Art and City Center Doha Mall, which are not directly related to the query 'Al Mirqab m'. The actual output shows poor precision and ranking, with the first relevant result, Al Mirqab 2 Residential Compounds, appearing at a low rank.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Mirqab Mall": {
+                "score": 0.3333333333333333,
+                "rank": 4
+            },
+            "almirqabmedical": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Al Mirqab Mosque - Suhaib Al-Roumi Mosque (398)": {
+                "score": 0.2222222222222222,
+                "rank": 4
+            },
+            "Carrefour": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Mirqab Mall Gate 4": {
+                "score": 0.4,
+                "rank": 2
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Museum of Islamic Art",
+                "container": "Doha Port"
+            },
+            {
+                "poi_name": "The Gate Mall",
+                "container": "Onaiza"
+            },
+            {
+                "poi_name": "City Center Doha Mall",
+                "container": "Al Dafna"
+            },
+            {
+                "poi_name": "Al Mirqab 2 Residential Compounds",
+                "container": "Al Sadd"
+            },
+            {
+                "poi_name": "Al Mirqab Residence 1 Residential Compounds",
+                "container": "Al Sadd"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Mirqab Mall",
+                "secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+            },
+            {
+                "main_text": "almirqabmedical",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Mirqab Mosque - Suhaib Al-Roumi Mosque (398)",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Carrefour",
+                "secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Mirqab Mall Gate 4",
+                "secondary_text": "Al Mirqab Al Jadeed, Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Mirqab mall",
+    "holistic_ai_score": 0.7,
+    "holistic_ai_reasoning": "The Solr list contains the most important POI, Al Mirqab Mall, although it's ranked fourth, and has some relevant results such as City Center Doha Mall, but also includes less relevant matches like The Gate Mall and Msheireb Galleria Mall, indicating room for improvement in precision and ranking.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.4,
+        "mean_reciprocal_rank": 0.1,
+        "coverage_per_google_poi": {
+            "Al Mirqab Mall": {
+                "score": 1.0,
+                "rank": 4
+            },
+            "Carrefour": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "FUNDERDOME": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Aksyr Al Hyah Pharmacy - MIRQAB MALL": {
+                "score": 0.5,
+                "rank": 4
+            },
+            "DOHA SOUQ MALL": {
+                "score": 0.4,
+                "rank": 2
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "The Gate Mall",
+                "container": "Onaiza"
+            },
+            {
+                "poi_name": "City Center Doha Mall",
+                "container": "Al Dafna"
+            },
+            {
+                "poi_name": "Al Hazm Mall",
+                "container": "Al Markhiya"
+            },
+            {
+                "poi_name": "Al Mirqab Mall",
+                "container": "Al Mirqab Al Jadeed"
+            },
+            {
+                "poi_name": "Msheireb Galleria Mall",
+                "container": "Fereej Mohammed Bin Jasim"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Mirqab Mall",
+                "secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Carrefour",
+                "secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+            },
+            {
+                "main_text": "FUNDERDOME",
+                "secondary_text": "Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Aksyr Al Hyah Pharmacy - MIRQAB MALL",
+                "secondary_text": "Street, Doha, Qatar"
+            },
+            {
+                "main_text": "DOHA SOUQ MALL",
+                "secondary_text": "Al Mirqab Al Jadeed Street, Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Noor",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Actual Output lacks key results from the Expected Output, such as Al Noor Petrol Station, which is highly relevant to the query. Furthermore, while some results like Al Noor Language School are relevant, their ranking and the presence of less relevant results like Dar al noor ladies tailor reduce the overall quality and usefulness of the list.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "AL NOOR AL HUDA TRADING & CONT. CO EST .": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "Al Noor Toastmasters Club": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Noor Medical Laboratory Qatar": {
+                "score": 0.3333333333333333,
+                "rank": 1
+            },
+            "Alnoor Language School": {
+                "score": 0.4,
+                "rank": 4
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Noor Studio",
+                "container": "Al Maamoura"
+            },
+            {
+                "poi_name": "Noor Al Khaleej International School",
+                "container": "Nuaija"
+            },
+            {
+                "poi_name": "Dar al noor ladies tailor",
+                "container": "Al Thumama"
+            },
+            {
+                "poi_name": "Al Noor Language School",
+                "container": "Al Waab"
+            },
+            {
+                "poi_name": "Al Noor Clinic",
+                "container": "Nuaija"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Noor Petrol Station",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            },
+            {
+                "main_text": "AL NOOR AL HUDA TRADING & CONT. CO EST .",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Noor Toastmasters Club",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Noor Medical Laboratory Qatar",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Alnoor Language School",
+                "secondary_text": "Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Noor compound 1",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google #1 result, Al Noor Compound 1, and instead provides a list of somewhat related but ultimately irrelevant results, with none of them matching the expected output, demonstrating very poor quality with some marginal relevance.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Noor Compound 1": {
+                "score": 0.3333333333333333,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 1,
+        "solr_top5": [
+            {
+                "poi_name": "Al Noor Residential Compounds",
+                "container": "Al Aziziya"
+            },
+            {
+                "poi_name": "Noor Alwaab Residential Compounds",
+                "container": "Al Waab"
+            },
+            {
+                "poi_name": "Al Noor Residential Compounds",
+                "container": "Mehairja"
+            },
+            {
+                "poi_name": "Al Noor Garden Residential Compounds",
+                "container": "New Al Rayyan"
+            },
+            {
+                "poi_name": "Al Noor Residential Compounds",
+                "container": "Old Airport"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Noor Compound 1",
+                "secondary_text": "Airport Street\u060c Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Noor compound thumama",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google results, including Al Noor Compound 1 and 2, and instead provides noisy and irrelevant results such as Al Thumama Stadium and Tea Time Al Thumama, which are not useful for the user's query.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Noor Compound 2": {
+                "score": 0.16666666666666666,
+                "rank": 1
+            },
+            "Al Noor Compound 1": {
+                "score": 0.16666666666666666,
+                "rank": 1
+            },
+            "Home - Al Noor Resident Compound": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al Noor Street": {
+                "score": 0.4,
+                "rank": 3
+            },
+            "Al Noor Public Relations": {
+                "score": 0.16666666666666666,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Thumama Stadium",
+                "container": null
+            },
+            {
+                "poi_name": "Rawdat Umm Thumama Street 560",
+                "container": null
+            },
+            {
+                "poi_name": "Al Thumama Street 977",
+                "container": null
+            },
+            {
+                "poi_name": "Al Thumama 47 Interchange",
+                "container": null
+            },
+            {
+                "poi_name": "Tea Time Al Thumama",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Noor Compound 2",
+                "secondary_text": "Al Noor compound, Airport Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Noor Compound 1",
+                "secondary_text": "Airport Street\u060c Doha, Qatar"
+            },
+            {
+                "main_text": "Home - Al Noor Resident Compound",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Noor Street",
+                "secondary_text": "Al Wukair, Qatar"
+            },
+            {
+                "main_text": "Al Noor Public Relations",
+                "secondary_text": "Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Noor p",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list lacks the most important POIs from the Google list, and its results are mostly irrelevant or nonsensical for the query, with only a partial match in 'Al Noor' and no highly relevant results like Al Noor Petrol Station in Ar-Rayyan or Sunlife Pharmacy Al Noor.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.4,
+        "mean_reciprocal_rank": 0.1,
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 2
+            },
+            "Sunlife Pharmacy Al Noor": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Nour Plaza Luxury Suites": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al Noor Plastic Factory": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Noor Public Relations": {
+                "score": 0.4,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Noor Clinic",
+                "container": "Nuaija"
+            },
+            {
+                "poi_name": "Al Noor Petrol Station",
+                "container": "Abu Sidra"
+            },
+            {
+                "poi_name": "Al Noor Petrol Station",
+                "container": "Bu Sidra"
+            },
+            {
+                "poi_name": "Noor Paradise Residential Compounds",
+                "container": "Al Thumama"
+            },
+            {
+                "poi_name": "Al Noor Bakeries & Pasteries",
+                "container": "Umm Ghuwailina"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Noor Petrol Station",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            },
+            {
+                "main_text": "Sunlife Pharmacy Al Noor",
+                "secondary_text": "Al Muntazah, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Nour Plaza Luxury Suites",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Noor Plastic Factory",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            },
+            {
+                "main_text": "Al Noor Public Relations",
+                "secondary_text": "Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Noor petr",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant results from the Google list, particularly Al Noor Petrol Station in Qatar and several locations in Pakistan, instead providing two results that, although related to the query, do not match the expected output's diversity and relevance.",
+    "quantitative_metrics": {
+        "precision_ratio": 1.0,
+        "mean_reciprocal_rank": 0.6,
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "AL-NOOR PETROLEUM- Total Petrol Station": {
+                "score": 0.6666666666666666,
+                "rank": 1
+            },
+            "Al Noor Petrol Pump": {
+                "score": 0.6,
+                "rank": 1
+            },
+            "Al-Noor petroleum service": {
+                "score": 0.3333333333333333,
+                "rank": 1
+            },
+            "Al Noor Petroleum": {
+                "score": 0.4,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 2,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Noor Petrol Station",
+                "container": "Abu Sidra"
+            },
+            {
+                "poi_name": "Al Noor Petrol Station",
+                "container": "Bu Sidra"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Noor Petrol Station",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            },
+            {
+                "main_text": "AL-NOOR PETROLEUM- Total Petrol Station",
+                "secondary_text": "Piplan, Pakistan"
+            },
+            {
+                "main_text": "Al Noor Petrol Pump",
+                "secondary_text": "Jaranwala Road, Faisalabad, Pakistan"
+            },
+            {
+                "main_text": "Al-Noor petroleum service",
+                "secondary_text": "Matli, Pakistan"
+            },
+            {
+                "main_text": "Al Noor Petroleum",
+                "secondary_text": "Sohawa, Mandi Bahauddin, Pakistan"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Noor petrol",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant results from Pakistan that are present in the Google list, and instead contains results from Abu Sidra and Bu Sidra, which may not be relevant to the user's query, indicating very poor quality with some relevance.",
+    "quantitative_metrics": {
+        "precision_ratio": 1.0,
+        "mean_reciprocal_rank": 0.6,
+        "coverage_per_google_poi": {
+            "Al Noor Petrol Station": {
+                "score": 1.0,
+                "rank": 1
+            },
+            "AL-NOOR PETROLEUM- Total Petrol Station": {
+                "score": 0.6666666666666666,
+                "rank": 1
+            },
+            "Al Noor Petrol Pump": {
+                "score": 0.6,
+                "rank": 1
+            },
+            "Al-Noor petroleum service": {
+                "score": 0.3333333333333333,
+                "rank": 1
+            },
+            "Al Noor Petroleum": {
+                "score": 0.4,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 2,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Noor Petrol Station",
+                "container": "Abu Sidra"
+            },
+            {
+                "poi_name": "Al Noor Petrol Station",
+                "container": "Bu Sidra"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Noor Petrol Station",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            },
+            {
+                "main_text": "AL-NOOR PETROLEUM- Total Petrol Station",
+                "secondary_text": "Piplan, Pakistan"
+            },
+            {
+                "main_text": "Al Noor Petrol Pump",
+                "secondary_text": "Jaranwala Road, Faisalabad, Pakistan"
+            },
+            {
+                "main_text": "Al-Noor petroleum service",
+                "secondary_text": "Matli, Pakistan"
+            },
+            {
+                "main_text": "Al Noor Petroleum",
+                "secondary_text": "Sohawa, Mandi Bahauddin, Pakistan"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Osra",
+    "holistic_ai_score": 0.6,
+    "holistic_ai_reasoning": "The Solr list contains some relevant results, including Al Osra Mart trading and Al Osra Restaurant, which overlap with the Expected Output, but it lacks key results like Al Osra Restaurant on Al Fayhaa Street and Al Osra Trading & Contracting, and includes a poorly detailed Alosra Family-friendly, indicating significant flaws in precision and ranking.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.6667,
+        "mean_reciprocal_rank": 0.5,
+        "coverage_per_google_poi": {
+            "Al Osra Restaurant": {
+                "score": 1.0,
+                "rank": 2
+            },
+            "Alosra Restaurant - Old Airport": {
+                "score": 0.16666666666666666,
+                "rank": 2
+            },
+            "Al Osra Trading & Contracting": {
+                "score": 0.6,
+                "rank": 1
+            },
+            "Al osra mart \u0627\u0644\u0627\u0633\u0631\u0629 \u0645\u0627\u0631\u062a": {
+                "score": 0.75,
+                "rank": 1
+            },
+            "Al Osra Contracting W.L.L": {
+                "score": 0.3333333333333333,
+                "rank": 2
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 3,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Osra Mart trading",
+                "container": "Fereej Bin Mahmoud"
+            },
+            {
+                "poi_name": "Al Osra Restaurant",
+                "container": "Mushaireb"
+            },
+            {
+                "poi_name": "Alosra Family-friendly",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Osra Restaurant",
+                "secondary_text": "Al Fayhaa Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Alosra Restaurant - Old Airport",
+                "secondary_text": "Near, 2 and 3, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Osra Trading & Contracting",
+                "secondary_text": "\u0634\u0627\u0631\u0639 \u062c\u0627\u0633\u0645 \u0628\u0646 \u062d\u0645\u062f\u060c Doha, Qatar"
+            },
+            {
+                "main_text": "Al osra mart \u0627\u0644\u0627\u0633\u0631\u0629 \u0645\u0627\u0631\u062a",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Osra Contracting W.L.L",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Rumaila hospital",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant result, Rumailah Hospital, and instead contains unrelated hospitals, demonstrating poor key result coverage and precision, with the actual Al Rumaila hospital result being incorrectly listed as a mosque.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Rumailah Hospital": {
+                "score": 0.25,
+                "rank": 2
+            },
+            "null": {
+                "score": 0.0,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Hamad General Hospital - HMC",
+                "container": null
+            },
+            {
+                "poi_name": "Al Ahli Hospital",
+                "container": "Wadi Al Sail"
+            },
+            {
+                "poi_name": "Al Wakrah Hospital",
+                "container": null
+            },
+            {
+                "poi_name": "Al Rumaila hospital Mosque",
+                "container": null
+            },
+            {
+                "poi_name": "Doha Industrial Area Hospital",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Rumailah Hospital",
+                "secondary_text": "Al Khaleej Street, Doha, Qatar"
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            }
+        ]
+    }
+}
+{
+    "query": "Al S",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to cover the most important POI(s) from the Google list, with none of the expected results like Al Sadd or Al Shafi Street appearing in the actual output, and instead contains largely irrelevant or nonsensical results for the query 'Al S', indicating very poor quality with some marginal relevance at best.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Sadd": {
+                "score": 0.2,
+                "rank": 4
+            },
+            "Al Shafi Street": {
+                "score": 0.4,
+                "rank": 4
+            },
+            "Al Sadd Mall": {
+                "score": 0.16666666666666666,
+                "rank": 4
+            },
+            "Al Shamal Road": {
+                "score": 0.16666666666666666,
+                "rank": 4
+            },
+            "Al Shafi": {
+                "score": 0.2,
+                "rank": 4
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Qatar Science and Technology Park - QSTP",
+                "container": null
+            },
+            {
+                "poi_name": "Sidra Outpatient",
+                "container": "Qatar Science & Technology Park (QSTP)"
+            },
+            {
+                "poi_name": "Education City Stadium Stadium",
+                "container": "Qatar Foundation"
+            },
+            {
+                "poi_name": "Al Jewar Street 625",
+                "container": null
+            },
+            {
+                "poi_name": "Abu Samra Street 948",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Sadd",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Shafi Street",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Mall",
+                "secondary_text": "Al Sadd Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Shamal Road",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Shafi",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Sad",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to cover the most important POIs from the Google list, missing highly relevant results like Al Sadd in Doha, Qatar, and instead includes largely irrelevant or nonsensical results for the query 'Al Sad', with poor ranking and overall quality.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Sadd": {
+                "score": 0.2,
+                "rank": 1
+            },
+            "Al Sadd Mall": {
+                "score": 0.16666666666666666,
+                "rank": 1
+            },
+            "Al Sadd Metro Station": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al Sadd Sports Club": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al Sadd Exchange LLC": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Sad Residential Compounds",
+                "container": null
+            },
+            {
+                "poi_name": "Ghanem Bin Sad Al Sad and Sons",
+                "container": "New Slata"
+            },
+            {
+                "poi_name": "Sadaf",
+                "container": "Al Gharrafa"
+            },
+            {
+                "poi_name": "Ahmad Al Sayed Ali Al Sadda Mosque",
+                "container": "Al Gharrafa"
+            },
+            {
+                "poi_name": "Mohammed Khlifa Abdulla Al Sadda Mosque",
+                "container": "Umm Lekhba"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Sadd",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Mall",
+                "secondary_text": "Al Sadd Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Metro Station",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Sports Club",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Exchange LLC",
+                "secondary_text": "Al Amir Street, Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Sadd",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list contains some relevant keywords, but the results are largely irrelevant and lack specific details, such as locations, found in the Google list, and the ranking does not prioritize meaningful matches like Al Sadd Sports Club or Al Sadd Mall.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.8,
+        "mean_reciprocal_rank": 0.24,
+        "coverage_per_google_poi": {
+            "Al Sadd": {
+                "score": 0.6666666666666666,
+                "rank": 2
+            },
+            "Al Sadd Mall": {
+                "score": 0.5,
+                "rank": 2
+            },
+            "Al Sadd Metro Station": {
+                "score": 0.6,
+                "rank": 5
+            },
+            "Al Sadd Sports Club": {
+                "score": 0.4,
+                "rank": 2
+            },
+            "Al Sadd Exchange LLC": {
+                "score": 0.4,
+                "rank": 2
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Sadd Street 829",
+                "container": null
+            },
+            {
+                "poi_name": "Al Sadd 343",
+                "container": null
+            },
+            {
+                "poi_name": "Al Sadd Suites Hotel",
+                "container": null
+            },
+            {
+                "poi_name": "Al sadd Park and Ride",
+                "container": null
+            },
+            {
+                "poi_name": "Al Sadd Police Station",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Sadd",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Mall",
+                "secondary_text": "Al Sadd Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Metro Station",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Sports Club",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sadd Exchange LLC",
+                "secondary_text": "Al Amir Street, Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Shara",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list lacks the most important POI from the Google list, with none of the top results matching the expected output, and contains mostly irrelevant or nonsensical results for the query 'Al Shara', such as 'Sharaf DG' and 'Dr. Sharara Medical Center', indicating very poor quality with some minor relevance.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.2,
+        "mean_reciprocal_rank": 0.08,
+        "coverage_per_google_poi": {
+            "Al Sharayef Street": {
+                "score": 0.75,
+                "rank": 5
+            },
+            "Al Sharan Street": {
+                "score": 0.4,
+                "rank": 5
+            },
+            "Al Sharayef St": {
+                "score": 0.4,
+                "rank": 5
+            },
+            "Al Sharayet St": {
+                "score": 0.25,
+                "rank": 4
+            },
+            "Al Sharayef": {
+                "score": 0.5,
+                "rank": 5
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Sharahbeel Bin Hasana Street 249",
+                "container": null
+            },
+            {
+                "poi_name": "Dr. Sharara Medical Center",
+                "container": "Umm Lekhba"
+            },
+            {
+                "poi_name": "Sharaf DG",
+                "container": "Mall of Qatar"
+            },
+            {
+                "poi_name": "Al Sharaafi",
+                "container": "Umm Lekhba"
+            },
+            {
+                "poi_name": "Al Sharayef Street 927",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Sharayef Street",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sharan Street",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sharayef St",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sharayet St",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Sharayef",
+                "secondary_text": "Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Shara hot",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Qahir Al Sahara Hotel, and instead contains mostly irrelevant or nonsensical results for the query 'Al Shara hot', with no strong matches ranked highly.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Qahir Al Sahara Hotel": {
+                "score": 0.2,
+                "rank": 4
+            },
+            "null": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Bab Al Samawy Hotel": {
+                "score": 0.2,
+                "rank": 4
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Sharahbeel Bin Hasana Street 910",
+                "container": null
+            },
+            {
+                "poi_name": "Sharahbeel Bin Hasana Street 249",
+                "container": null
+            },
+            {
+                "poi_name": "Dr. Sharara Medical Center",
+                "container": "Umm Lekhba"
+            },
+            {
+                "poi_name": "Al Sharaafi",
+                "container": "Umm Lekhba"
+            },
+            {
+                "poi_name": "Al Sharayef Street 927",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Qahir Al Sahara Hotel",
+                "secondary_text": "Al Hejrah, Makkah Saudi Arabia"
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": "Bab Al Samawy Hotel",
+                "secondary_text": "Al, Al Qarnah, Luxor, Egypt"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Shara hotel",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to contain the most important POI(s) from the Google list, with none of the top results matching the expected output, and the provided results are largely irrelevant or nonsensical for the query 'Al Shara hotel', lacking any direct reference to the expected hotels.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Qahir Al Sahara Hotel": {
+                "score": 0.2,
+                "rank": 2
+            },
+            "Ahern Luxury Boutique Hotel": {
+                "score": 0.16666666666666666,
+                "rank": 5
+            },
+            "The Lexi Las Vegas": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Palace Station Hotel and Casino": {
+                "score": 0.14285714285714285,
+                "rank": 5
+            },
+            "LV (Las Vegas) Dog Resort": {
+                "score": 0.0,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Sharayef Street 927",
+                "container": null
+            },
+            {
+                "poi_name": "Al Sharaafi",
+                "container": "Umm Lekhba"
+            },
+            {
+                "poi_name": "Sharaka Holdings",
+                "container": "Fereej Abdel Aziz"
+            },
+            {
+                "poi_name": "Le Mirage Sharq Hotel",
+                "container": "Al Rufaa"
+            },
+            {
+                "poi_name": "Parisa Sharq Hotel",
+                "container": "Al Khulaifat"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Qahir Al Sahara Hotel",
+                "secondary_text": "Al Hejrah, Makkah Saudi Arabia"
+            },
+            {
+                "main_text": "Ahern Luxury Boutique Hotel",
+                "secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+            },
+            {
+                "main_text": "The Lexi Las Vegas",
+                "secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+            },
+            {
+                "main_text": "Palace Station Hotel and Casino",
+                "secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+            },
+            {
+                "main_text": "LV (Las Vegas) Dog Resort",
+                "secondary_text": "West Sahara Avenue, Las Vegas, NV, USA"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Thakeera Beach",
+    "holistic_ai_score": 0.7,
+    "holistic_ai_reasoning": "The Solr list contains a strong match, AlThakira beach, which is ranked fourth, indicating some relevance to the query. However, the list lacks the most important POI from the Google list, Al Thakeera Beach, and includes some irrelevant results like Purple Island Beach and Al Sultan Beach Resort, which reduces its overall quality and trustworthiness.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.2,
+        "mean_reciprocal_rank": 0.2,
+        "coverage_per_google_poi": {
+            "Al Thakeera Beach": {
+                "score": 0.75,
+                "rank": 1
+            },
+            "Al Thakhira Beach": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Thakira Mangroves Forest Beach": {
+                "score": 0.2857142857142857,
+                "rank": 1
+            },
+            "Al Thakira Street": {
+                "score": 0.16666666666666666,
+                "rank": 1
+            },
+            "null": {
+                "score": 0.0,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Thakeera Beach Campground",
+                "container": null
+            },
+            {
+                "poi_name": "Purple Island Beach",
+                "container": null
+            },
+            {
+                "poi_name": "Eraida Beach",
+                "container": "Al Jebail"
+            },
+            {
+                "poi_name": "AlThakira beach",
+                "container": "Al Jebail"
+            },
+            {
+                "poi_name": "Al Sultan Beach Resort",
+                "container": "Al Khor"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Thakeera Beach",
+                "secondary_text": "Qatar"
+            },
+            {
+                "main_text": "Al Thakhira Beach",
+                "secondary_text": "Al Thakhira, Qatar"
+            },
+            {
+                "main_text": "Al Thakira Mangroves Forest Beach",
+                "secondary_text": "Al Thakhira, Qatar"
+            },
+            {
+                "main_text": "Al Thakira Street",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wa",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Wakrah and Al Waab, and instead contains noise like Souq Waqif and Jebn wa Zaitoun, which are not directly related to the query 'Al Wa'. The ranking is also poor, with the most relevant result, Al Wakrah Hospital, being ranked third, but even then, it's not the exact match expected.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.2,
+        "mean_reciprocal_rank": 0.0667,
+        "coverage_per_google_poi": {
+            "Al Wakrah": {
+                "score": 0.6666666666666666,
+                "rank": 3
+            },
+            "Al Waab": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "Al Waab Health Center": {
+                "score": 0.16666666666666666,
+                "rank": 3
+            },
+            "Al Wajba": {
+                "score": 0.25,
+                "rank": 3
+            },
+            "Al Waab QLM Metro Station": {
+                "score": 0.14285714285714285,
+                "rank": 3
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Imam Mohammed Bin Abdul Wahab Mosque",
+                "container": "Qatar Grand Mosque"
+            },
+            {
+                "poi_name": "Souq Waqif",
+                "container": "Al Jasra"
+            },
+            {
+                "poi_name": "Al Wakrah Hospital",
+                "container": null
+            },
+            {
+                "poi_name": "Al Shifa Wa Al Afia Pharmacy",
+                "container": "Ain Khaled"
+            },
+            {
+                "poi_name": "Jebn wa Zaitoun",
+                "container": "Muaither"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wakrah",
+                "secondary_text": "Qatar"
+            },
+            {
+                "main_text": "Al Waab",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Waab Health Center",
+                "secondary_text": "Sports City Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wajba",
+                "secondary_text": "Qatar"
+            },
+            {
+                "main_text": "Al Waab QLM Metro Station",
+                "secondary_text": "Al Waab Street, Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wa hospital emergency",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the top result from the Google list, and the single result provided, Al Wakrah Hospital Womens Emergency, although related to the query, does not match the expected output which includes more directly relevant emergency rooms in Alabama, indicating a significant lack of precision and noise in the results.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Hospital": {
+                "score": 0.2,
+                "rank": 1
+            },
+            "Suburban Hospital Emergency Room": {
+                "score": 0.2857142857142857,
+                "rank": 1
+            },
+            "Children's National Emergency Room": {
+                "score": 0.1111111111111111,
+                "rank": 1
+            },
+            "North Alabama Medical Center": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Sam and Rose Stein Emergency Center": {
+                "score": 0.1,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 1,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Wakrah Hospital Womens Emergency",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Hospital",
+                "secondary_text": "Hu\u00e9rcal-Overa, AL, Spain"
+            },
+            {
+                "main_text": "Suburban Hospital Emergency Room",
+                "secondary_text": "Old Georgetown Road, Bethesda, MD, USA"
+            },
+            {
+                "main_text": "Children's National Emergency Room",
+                "secondary_text": "Michigan Avenue Northwest, Washington, DC, USA"
+            },
+            {
+                "main_text": "North Alabama Medical Center",
+                "secondary_text": "Veterans Drive, Florence, AL, USA"
+            },
+            {
+                "main_text": "Sam and Rose Stein Emergency Center",
+                "secondary_text": "Children's Way, San Diego, CA, USA"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Waab",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list fails to include the most relevant results from the Google list, such as Al Waab in Doha, Qatar, and instead provides streets with 'Waab' in their names, which, although related, lack the precision and relevance of the expected output, indicating poor key result coverage and low precision.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Waab": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Waaban Street": {
+                "score": 0.3333333333333333,
+                "rank": 1
+            },
+            "Al Waab Health Center": {
+                "score": 0.2857142857142857,
+                "rank": 1
+            },
+            "Al Waab QLM Metro Station": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "Al Waab Medical Center \u0645\u0631\u0643\u0632 \u0627\u0644\u0648\u0639\u0628 \u0627\u0644\u0637\u0628\u064a": {
+                "score": 0.2857142857142857,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Wadi Al Waab Street 681",
+                "container": null
+            },
+            {
+                "poi_name": "Birkat Al Waab Street 241",
+                "container": null
+            },
+            {
+                "poi_name": "Waab Broog Street 666",
+                "container": null
+            },
+            {
+                "poi_name": "Waab Al Semaira Street 146",
+                "container": null
+            },
+            {
+                "poi_name": "Waab Al Nafayed Street 73",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Waab",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Waaban Street",
+                "secondary_text": "Umm Salal Muhammed, Qatar"
+            },
+            {
+                "main_text": "Al Waab Health Center",
+                "secondary_text": "Sports City Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Waab QLM Metro Station",
+                "secondary_text": "Al Waab Street, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Waab Medical Center \u0645\u0631\u0643\u0632 \u0627\u0644\u0648\u0639\u0628 \u0627\u0644\u0637\u0628\u064a",
+                "secondary_text": "Al Waab Street, Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list lacks highly relevant results from the Google list, such as Al Wafa Trading Co. and Al Wafa supermarket, and instead contains mostly tailor shops, which are less relevant to the query 'Al Wafa', indicating poor key result coverage and precision.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.4,
+        "mean_reciprocal_rank": 0.5,
+        "coverage_per_google_poi": {
+            "Al Wafa Trading Co. WLL": {
+                "score": 0.6,
+                "rank": 2
+            },
+            "Al wafa supermarket": {
+                "score": 0.5,
+                "rank": 1
+            },
+            "Al Wafa Travel & Tourism": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Wafa Residence": {
+                "score": 0.5,
+                "rank": 1
+            },
+            "AL WAFA AUTO SPARE PARTS": {
+                "score": 0.3333333333333333,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al wafa tailor",
+                "container": "Abu Sidra"
+            },
+            {
+                "poi_name": "Al Wafa Trading",
+                "container": "Industrial Area"
+            },
+            {
+                "poi_name": "Wafa Al Ain Tailor",
+                "container": "Al Aziziya"
+            },
+            {
+                "poi_name": "Al Wafa Eye Tailor",
+                "container": "New Al Rayyan"
+            },
+            {
+                "poi_name": "Ain Al Wafa Tailor",
+                "container": "New Al Rayyan"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Trading Co. WLL",
+                "secondary_text": "Street 21, Doha, Qatar"
+            },
+            {
+                "main_text": "Al wafa supermarket",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafa Travel & Tourism",
+                "secondary_text": "Opposite of City Exchange, \u0627\u0644\u0631\u064a\u0627\u0646 North Muaither, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafa Residence",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "AL WAFA AUTO SPARE PARTS",
+                "secondary_text": "Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa r",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google results, such as Al Wafa Residence, and instead contains mostly irrelevant tailoring services, demonstrating poor key result coverage and precision.",
+    "quantitative_metrics": {
+        "precision_ratio": 1.0,
+        "mean_reciprocal_rank": 0.4,
+        "coverage_per_google_poi": {
+            "Al Wafa Residence": {
+                "score": 0.5,
+                "rank": 1
+            },
+            "Al Wafa Residence, Giardino Village Building 13": {
+                "score": 0.25,
+                "rank": 1
+            },
+            "Al Wafa Residence 2": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "Al Wafa": {
+                "score": 0.6666666666666666,
+                "rank": 1
+            },
+            "AL WAFA MINI MART": {
+                "score": 0.4,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al wafa tailor",
+                "container": "Abu Sidra"
+            },
+            {
+                "poi_name": "Al Wafa Trading",
+                "container": "Industrial Area"
+            },
+            {
+                "poi_name": "Wafa Al Ain Tailor",
+                "container": "Al Aziziya"
+            },
+            {
+                "poi_name": "Al Wafa Eye Tailor",
+                "container": "New Al Rayyan"
+            },
+            {
+                "poi_name": "Ain Al Wafa Tailor",
+                "container": "New Al Rayyan"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Residence",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafa Residence, Giardino Village Building 13",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafa Residence 2",
+                "secondary_text": "building 62, street 183, Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafa",
+                "secondary_text": "\u0637\u0648\u064a\u0642\u060c Riyadh Saudi Arabia"
+            },
+            {
+                "main_text": "AL WAFA MINI MART",
+                "secondary_text": "Ar-Rayyan, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa ro",
+    "holistic_ai_score": 0.0,
+    "holistic_ai_reasoning": "The Solr list completely misses the most important POI(s) from the Google list, with none of the actual results matching the expected output, and all results being irrelevant or nonsensical for the query 'Al Wafa ro'.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Wafa Roastery": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al wafa roastery": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al-Wafa Road": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "AL WAFA MEDICALE Sfax": {
+                "score": 0.125,
+                "rank": 1
+            },
+            "Al Wafa Ice Cream": {
+                "score": 0.125,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Al Safa Royal Suites Hotel",
+                "container": "Fereej Abdel Aziz"
+            },
+            {
+                "poi_name": "Al Safa Mobile and Electronics",
+                "container": "Mesaieed"
+            },
+            {
+                "poi_name": "Strong Lite - ADWA AL AFIA Trading",
+                "container": "Al Sailiya"
+            },
+            {
+                "poi_name": "Baba Royal Restaurant",
+                "container": "Muaither"
+            },
+            {
+                "poi_name": "Aspro Cafe",
+                "container": "Villaggio Mall"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Roastery",
+                "secondary_text": "Dubai - United Arab Emirates"
+            },
+            {
+                "main_text": "Al wafa roastery",
+                "secondary_text": "Sharjah - United Arab Emirates"
+            },
+            {
+                "main_text": "Al-Wafa Road",
+                "secondary_text": "Murdeshwar, Karnataka, India"
+            },
+            {
+                "main_text": "AL WAFA MEDICALE Sfax",
+                "secondary_text": "et l'Ain, Route Lafrane, Sfax, Tunisia"
+            },
+            {
+                "main_text": "Al Wafa Ice Cream",
+                "secondary_text": "Road 1111, Muharraq, Bahrain"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa tl",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results from the Google list, and instead provides results that are somewhat related to the query but lack precision and are noisy, with only one result partially matching the expected output's relevance to 'Al Wafa' and none matching the expected geographic locations.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.4,
+        "mean_reciprocal_rank": 0.25,
+        "coverage_per_google_poi": {
+            "Musholla Al wafa": {
+                "score": 0.5,
+                "rank": 4
+            },
+            "Al Wafa": {
+                "score": 0.6666666666666666,
+                "rank": 4
+            },
+            "Al Wafa Hotel": {
+                "score": 0.5,
+                "rank": 4
+            },
+            "Al wafa": {
+                "score": 0.6666666666666666,
+                "rank": 4
+            },
+            "Masjid al wafa'": {
+                "score": 0.5,
+                "rank": 4
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "TL FLOWER BOUTIQE",
+                "container": "Al Kharaitiyat"
+            },
+            {
+                "poi_name": "Chai Tlqemh",
+                "container": "Baaya"
+            },
+            {
+                "poi_name": "TLC - Kindergartens & Nurseries",
+                "container": "Legtaifiya"
+            },
+            {
+                "poi_name": "Al wafa tailor",
+                "container": "Abu Sidra"
+            },
+            {
+                "poi_name": "Al Wafa Trading",
+                "container": "Industrial Area"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Musholla Al wafa",
+                "secondary_text": "Musholla Al wafa, Tengah, Gugul, Tlanakan, Pamekasan Regency, East Java, Indonesia"
+            },
+            {
+                "main_text": "Al Wafa",
+                "secondary_text": "Jalan Batu Benawa IV, Tlk. Dalam, Banjarmasin City, South Kalimantan, Indonesia"
+            },
+            {
+                "main_text": "Al Wafa Hotel",
+                "secondary_text": "Ghazi Arabiyat St, Tla al-Ali, Amman, Jordan"
+            },
+            {
+                "main_text": "Al wafa",
+                "secondary_text": "Thalassery, Kerala, India"
+            },
+            {
+                "main_text": "Masjid al wafa'",
+                "secondary_text": "Krajan, Tlogosari, Malang Regency, East Java, Indonesia"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa to",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the most relevant results from the Google list, such as Al Wafa Tower, and instead provides a result that is only partially relevant to the query, Wafa Auto Spare Parts & Electrical, which does not match the expected output and introduces noise.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Wafa Tower": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES": {
+                "score": 0.07692307692307693,
+                "rank": 1
+            },
+            "Al-Wafa Tours": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al Wafa Toko": {
+                "score": 0.14285714285714285,
+                "rank": 1
+            },
+            "Al Wafa": {
+                "score": 0.16666666666666666,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 1,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Wafa Auto Spare Parts & Electrical",
+                "container": "Al Wukair"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Tower",
+                "secondary_text": "Dubai - United Arab Emirates"
+            },
+            {
+                "main_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES",
+                "secondary_text": "Gharnatah Street - Ajman - United Arab Emirates"
+            },
+            {
+                "main_text": "Al-Wafa Tours",
+                "secondary_text": "Jail Road South, Umerkhadi, Mumbai, Maharashtra, India"
+            },
+            {
+                "main_text": "Al Wafa Toko",
+                "secondary_text": "Karang Rejo, Balikpapan City, East Kalimantan, Indonesia"
+            },
+            {
+                "main_text": "Al Wafa",
+                "secondary_text": "Taif Saudi Arabia"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa towe",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant #1 result from the Google list, Al Wafa Tower, and instead contains mostly irrelevant results such as Control Tower Hamad Port and Doha Tower Cafeteria, with only a weak match in Al Wakra Tower, which is not the expected Al Wafa Tower.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.2,
+        "mean_reciprocal_rank": 0.1,
+        "coverage_per_google_poi": {
+            "Al Wafa Tower": {
+                "score": 0.5,
+                "rank": 5
+            },
+            "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES": {
+                "score": 0.2,
+                "rank": 5
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 2,
+        "solr_top5": [
+            {
+                "poi_name": "Control Tower Hamad Port",
+                "container": "Mesaieed - Free Zone"
+            },
+            {
+                "poi_name": "Corniche Towers",
+                "container": "Industrial Area"
+            },
+            {
+                "poi_name": "Doha Tower Cafeteria",
+                "container": "Al Meshaf"
+            },
+            {
+                "poi_name": "Dulsco Camp-24 Tower",
+                "container": "Industrial Area"
+            },
+            {
+                "poi_name": "Al Wakra Tower",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Tower",
+                "secondary_text": "Dubai - United Arab Emirates"
+            },
+            {
+                "main_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES",
+                "secondary_text": "Gharnatah Street - Ajman - United Arab Emirates"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafa tower",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list completely misses the highly relevant Google #1 result, Al Wafa Tower, and instead contains irrelevant tailor shops and unrelated towers, demonstrating very poor quality with minimal relevance to the user's query for 'Al Wafa tower'.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Wafa Tower": {
+                "score": 0.4,
+                "rank": 1
+            },
+            "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES": {
+                "score": 0.18181818181818182,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 2,
+        "solr_top5": [
+            {
+                "poi_name": "Al Wafa Eye Tailor",
+                "container": "New Al Rayyan"
+            },
+            {
+                "poi_name": "Ain Al Wafa Tailor",
+                "container": "New Al Rayyan"
+            },
+            {
+                "poi_name": "Wafa Tailor",
+                "container": "Al Kharaitiyat"
+            },
+            {
+                "poi_name": "Costa Coffee Ezdan Tower 1",
+                "container": null
+            },
+            {
+                "poi_name": "Dafna Tower 4 Tower",
+                "container": "Onaiza"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Tower",
+                "secondary_text": "Dubai - United Arab Emirates"
+            },
+            {
+                "main_text": "AL WAFA TOWER CRANES, CONSTRUCTION HOISTS AND AUTOMATION SERVICES",
+                "secondary_text": "Gharnatah Street - Ajman - United Arab Emirates"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wafaa",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list lacks the most relevant POIs from the Google list, such as Al Wafa Trading Co. and Al-Wafaa kindergarten, and instead contains multiple street results with 'Al Wafaa' in the name, introducing noise and suggesting poor precision, with no strong matches ranked highly.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.6,
+        "mean_reciprocal_rank": 0.2,
+        "coverage_per_google_poi": {
+            "Al Wafa Trading Co. WLL": {
+                "score": 0.125,
+                "rank": 2
+            },
+            "Al-Wafaa kindergarten Model": {
+                "score": 0.375,
+                "rank": 3
+            },
+            "Al Wafaa Model Independant Kindergarden": {
+                "score": 0.3333333333333333,
+                "rank": 3
+            },
+            "Al Wafaa Street": {
+                "score": 0.75,
+                "rank": 2
+            },
+            "Al Wafaa": {
+                "score": 0.5,
+                "rank": 2
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Sahat Al Wafaa Street 747",
+                "container": null
+            },
+            {
+                "poi_name": "Al Wafaa Street 930",
+                "container": null
+            },
+            {
+                "poi_name": "Al Wafaa Model Independent School For Boys",
+                "container": "Al Thumama"
+            },
+            {
+                "poi_name": "Al Wafaa Model Independent For Boys - Kindergartens & Nurseries",
+                "container": "Al Thumama"
+            },
+            {
+                "poi_name": "Al Wafaa Street 768",
+                "container": null
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wafa Trading Co. WLL",
+                "secondary_text": "Street 21, Doha, Qatar"
+            },
+            {
+                "main_text": "Al-Wafaa kindergarten Model",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafaa Model Independant Kindergarden",
+                "secondary_text": "Doha, Qatar"
+            },
+            {
+                "main_text": "Al Wafaa Street",
+                "secondary_text": "Al Wakrah, Qatar"
+            },
+            {
+                "main_text": "Al Wafaa",
+                "secondary_text": "Doha, Qatar"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wagga",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list lacks the most important POI(s) from the Google list, with none of the expected results appearing in the actual output, and contains largely irrelevant results such as Al Janoub Stadium and Al Haya, which do not match the query 'Al Wagga' well, indicating very poor quality with minimal relevance.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Wagga Wagga Street": {
+                "score": 0.2,
+                "rank": 1
+            },
+            "Waggan Firetrail": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Wagga Street": {
+                "score": 0.2,
+                "rank": 1
+            },
+            "Waggamon Circle": {
+                "score": 0.0,
+                "rank": 1
+            },
+            "Waggaman Circle": {
+                "score": 0.0,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 5,
+        "google_count": 5,
+        "solr_top5": [
+            {
+                "poi_name": "Jery Waggad Street 366",
+                "container": null
+            },
+            {
+                "poi_name": "Al Janoub Stadium",
+                "container": "Al Wukair"
+            },
+            {
+                "poi_name": "Al Wakrah Hospital",
+                "container": null
+            },
+            {
+                "poi_name": "Al Wakrah City Heritage Market",
+                "container": "Al Wakrah Souq"
+            },
+            {
+                "poi_name": "Al Haya",
+                "container": "Al Afja"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Wagga Wagga Street",
+                "secondary_text": "Prestons NSW, Australia"
+            },
+            {
+                "main_text": "Waggan Firetrail",
+                "secondary_text": "Weilmoringle NSW, Australia"
+            },
+            {
+                "main_text": "Wagga Street",
+                "secondary_text": "Farrer ACT, Australia"
+            },
+            {
+                "main_text": "Waggamon Circle",
+                "secondary_text": "Annapolis, MD, USA"
+            },
+            {
+                "main_text": "Waggaman Circle",
+                "secondary_text": "McLean, VA, USA"
+            }
+        ]
+    }
+}
+{
+    "query": "Al Wakr hospital emergency",
+    "holistic_ai_score": 0.2,
+    "holistic_ai_reasoning": "The Solr list lacks the most relevant result from the Google list, Al Wakra Hospital Emergency Department, and instead includes Hamad Hospital Emergency, which is not directly related to the query, resulting in poor key result coverage and low precision.",
+    "quantitative_metrics": {
+        "precision_ratio": 0.0,
+        "mean_reciprocal_rank": 0.0,
+        "coverage_per_google_poi": {
+            "Al Wakra Hospital Emergency Department Parking": {
+                "score": 0.375,
+                "rank": 1
+            },
+            "null": {
+                "score": 0.0,
+                "rank": 1
+            }
+        }
+    },
+    "source_data": {
+        "solr_count": 2,
+        "google_count": 3,
+        "solr_top5": [
+            {
+                "poi_name": "Al Wakrah Hospital Womens Emergency",
+                "container": null
+            },
+            {
+                "poi_name": "Hamad Hospital Emergency Female and Kids",
+                "container": "Hamad Medical City"
+            }
+        ],
+        "google_top5": [
+            {
+                "main_text": "Al Wakra Hospital Emergency Department Parking",
+                "secondary_text": "Al Wakra Hospital\u060c Al Wakrah, Qatar"
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            },
+            {
+                "main_text": null,
+                "secondary_text": null
+            }
+        ]
+    }
+}
